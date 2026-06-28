@@ -1,0 +1,6 @@
+{
+  "name": "Last-Minute Life Saver",
+  "description": "An AI-powered full-stack productivity web app helping students and professionals manage tight deadlines, tasks, and schedules with Gemini-guided plans.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
