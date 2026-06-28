@@ -1,20 +1,22 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Last-Minute Life Saver
 
-# Run and deploy your AI Studio app
+An AI-powered productivity companion that helps students and professionals avoid missing deadlines, assignments, exams, meetings, interviews, and bill payments.
 
-This contains everything you need to run your app locally.
+## Features
+- Task management with deadlines, categories, and priorities
+- AI-powered task prioritization
+- AI-generated daily schedules
+- Personalized productivity recommendations
+- Smart deadline alerts (24h / 12h / 6h warnings)
+- Auto Rescue Mode — breaks urgent tasks into actionable sub-steps with time estimates
+- Voice-enabled task creation
+- Productivity analytics dashboard
 
-View your app in AI Studio: https://ai.studio/apps/74a25b5d-d7b1-410c-97b1-02354284ace9
+## Tech Stack
+- React, Vite, Tailwind CSS
+- Google Gemini API for AI features
 
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Setup
+1. Install dependencies: `npm install`
+2. Add your Gemini API key to `.env`
+3. Run locally: `npm run dev`
